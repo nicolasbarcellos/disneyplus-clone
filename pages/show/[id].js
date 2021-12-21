@@ -182,8 +182,8 @@ export const getStaticProps = async ({ params }) => {
 // 1 - colocar loading usando react spinner - check
 // 4 - colocar opacity no canto da lista - check
 // 8 - mudar imagems dos filmes igual do tmdb-ish
+// 7 - fazer janela de signup ao hover a foto
 
 
 // 3 - arrumar mobile
 // 5 - fazer botão de search igual do tmdb-ish
-// 7 - fazer janela de signup ao hover a foto

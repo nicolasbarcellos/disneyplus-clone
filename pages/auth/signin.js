@@ -11,7 +11,7 @@ function signIn({ providers }) {
       <Head>
         <title>Login | Disney+</title>
       </Head>
-      <div className="w-full flex flex-col items-center">
+      <div className="w-full flex flex-col items-center text-center justify-center">
         <div className="w-[150px] h-[150px] sm:w-[200px] md:h-[200px] relative">
           <Link href="/auth/signin" passHref>
             <Image

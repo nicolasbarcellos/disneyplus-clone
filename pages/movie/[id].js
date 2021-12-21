@@ -16,7 +16,6 @@ export default function Data({ detail }) {
   const [session] = useSession();
   const router = useRouter();
 
-  console.log(detail)
 
   useEffect(() => {
     if (!session) {
@@ -44,7 +43,8 @@ export default function Data({ detail }) {
         <Hero />
       ) : (
         <section className="relative z-50">
-          <div className="relative min-h-[calc(100vh-72px)] opacity-80">
+          <div className="relative md:min-h-[calc(100vh-72px)] 
+          min-h-[calc(60vh-72px)] opacity-80">
             <Image
               src={`${BASE_URL_IMAGE}${
                 detail.backdrop_path || detail.poster_path

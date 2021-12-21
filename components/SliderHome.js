@@ -4,8 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 
 export default function SliderHome() {
   return (
-    <section className="relative shadow-2xl max-w-full mx-auto ">
-      <div />
+    <section className="relative shadow-2xl max-w-full mx-auto">
       <Carousel
         autoPlay
         infiniteLoop
@@ -15,7 +14,7 @@ export default function SliderHome() {
         interval={5000}
       >
         <div>
-          <img loading="lazy" src="/images/slider-1.jpg" alt="" />
+          <img className='' loading="lazy" src="/images/slider-1.jpg" alt="" />
         </div>
         <div>
           <img loading="lazy" src="/images/slider-2.jpg" alt="" />
