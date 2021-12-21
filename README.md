@@ -9,7 +9,7 @@
   Disney Clone is a small version of Disney+.
 </h4>
 
-![Windbnb preview](.github/windbnb-preview.png)
+![Windbnb preview](.github/disney-preview.png)
 
 ## Tecnologies
 
