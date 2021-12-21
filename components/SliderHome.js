@@ -13,17 +13,37 @@ export default function SliderHome() {
         showThumbs={false}
         interval={5000}
       >
-        <div>
-          <img className='' loading="lazy" src="/images/slider-1.jpg" alt="" />
+        <div className="h-[150px] sm:h-auto">
+          <img
+            className="h-[100%] object-cover"
+            loading="lazy"
+            src="/images/slider-1.jpg"
+            alt=""
+          />
         </div>
-        <div>
-          <img loading="lazy" src="/images/slider-2.jpg" alt="" />
+        <div className="h-[150px] sm:h-auto">
+          <img
+            className="h-[100%] object-cover"
+            loading="lazy"
+            src="/images/slider-2.jpg"
+            alt=""
+          />
         </div>
-        <div>
-          <img loading="lazy" src="/images/slider-3.jpg" alt="" />
+        <div className="h-[150px] sm:h-auto">
+          <img
+            className="h-[100%] object-cover"
+            loading="lazy"
+            src="/images/slider-3.jpg"
+            alt=""
+          />
         </div>
-        <div>
-          <img loading="lazy" src="/images/slider-4.jpeg" alt="" />
+        <div className="h-[150px] sm:h-auto">
+          <img
+            className="h-[100%] object-cover"
+            loading="lazy"
+            src="/images/slider-4.jpeg"
+            alt=""
+          />
         </div>
       </Carousel>
     </section>

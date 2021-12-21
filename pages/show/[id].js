@@ -47,7 +47,7 @@ export default function Data({ detail }) {
                 detail.backdrop_path || detail.poster_path
               }`}
               layout="fill"
-              objectFit="fill"
+              objectFit="cover"
               alt={detail.title}
             />
           </div>
